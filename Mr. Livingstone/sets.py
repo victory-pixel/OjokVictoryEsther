@@ -1,0 +1,16 @@
+Cars = {'Prius','Prius', 'Camry', 'Corolla', 'RAV4', 'Highlander'}
+Drivers = {'Alice', 'Bob', 'Charlie', 'David', 'Eve'}
+#print(type(Cars))
+#print(type(Drivers))
+Cars.add('Yaris')
+Drivers.add('Frank')
+print(Cars)
+print(Drivers)
+Race=Cars.union(Drivers)
+print(Race)
+Team=Cars.intersection(Drivers)
+print(Team)
+Cars.remove('Prius')
+print(Cars)
+Cars.update({'rover','range rover'})
+print(Cars)
